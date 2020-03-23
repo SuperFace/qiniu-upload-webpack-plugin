@@ -1,0 +1,32 @@
+{
+  "name": "qiniu-upload-webpack-plugin",
+  "version": "1.0.0",
+  "description": "上传 Webpack 打包出来的 assets 到 七牛云。",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "cat coverage/lcov.info | coveralls"
+  },
+  "author": "SuperFace",
+  "license": "MIT",
+  "dependencies": {
+    "ora": "^3.4.0",
+    "qiniu": "^7.2.2"
+  },
+  "devDependencies": {
+    
+  },
+  "keywords": [
+    "qiniu",
+    "webpack4",
+    "plugin"
+  ],
+  "homepage": "https://github.com/SuperFace/qiniu-upload-webpack-plugin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperFace/qiniu-upload-webpack-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SuperFace/qiniu-upload-webpack-plugin/issues"
+  }
+}
